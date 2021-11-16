@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Faculty Leave Report</title>
+    <link type="text/css" rel="stylesheet" href="css\style.css">
+</head><style type="text/css">
+    body{
+       background-image:url('2.png') ; 
+       background-repeat: no-repeat;
+       background-size: 100% ;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="Course">Course</label>
+                        <input type="Course" name="Course ="Course ">
+                    </div>
+                    <div>
+                        <label for="Semester">Semester</label>
+                        <input type="Semester" name="Semester" id="Semester">
+                    </div>
+                    <div>
+                    
+                        <h1><button id="Viewleavereport" onclick="onclickForviewleavereport()">View leave report</button>
+                        </h1>
+                      
+                    </div>
+                    <div>
+                      // Student's leave report with the name and Roll number appears //
+                      </div>
+                      <div>
+                        <h1><button id="View reason" onclick="onclickForviewreason()">View Reason </button>
+                        </h1>
+                       
+                    </div>
+                    <div>
+                      // Student's Reason for the leave request appears //
+
+
+                      <h1><button id="Accept" onclick="onclickForaccept()">Accept </button>
+                       <button id="Decline" onclick="onclickFordecline()">Decline </button>
+                        
+                      </h1>
+                        
+                    </div>
+                </form>
+
+            <td>
+                
+    <script type="text/javascript" src="js\login.js"></script>
+</body>
+
+</html>

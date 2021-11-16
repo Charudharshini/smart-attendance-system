@@ -7,6 +7,34 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <h1>LOGGED IN AS ADMIN</h1>
+    <label for="Choose the Requirement ">Choose the Requirement</label>
+    <select name="Choose the Requirement" id="Choose the Requirement">
+<optgroup label="FACULTY">
+    <option value="Add Faculty">Add Faculty</option>
+    <option value="Modify Faculty">Modify Faculty</option>
+    <option value="Remove Faculty">Remove Faculty</option>
+    <div></div>
+<optgroup label="STUDENT"></optgroup>
+    <option value="Add Student">Add Student</option>
+    <option value="Modify Student">Modify Student</option>
+    <option value="Remove Student">Remove Student</option>
+    <div></div>
+<optgroup label="COURSE"></optgroup>
+    <option value="Add Course">Add Course</option>
+    <option value="Modify Course">Modify Course</option>
+    <option value="Remove Course">Remove Course</option>
+  </optgroup>
+</select>
+<div></div>
+   
+
+
+
+    <h1><button id="Faculty" onclick="onclickForfaculty()">Faculty</button>
+        <button id="Student" onclick="onclickForstudent()">Student</button>
+        <button id="Courses" onclick="onclickForcourse()">Courses</button>
+       
 </body>
+<script type="text/javascript" src="js\adash.js"></script>
+</html>
 </html>

@@ -4,16 +4,16 @@ function onclickForstudentinbox() {
 }
 
 function onclickForstudentleaveletter() {
-    console.log("Admin button clicked");
-    location.href= "admin.html";
+    console.log("studentleaveletter button clicked");
+    location.href= "studentleaveletter.html";
 }
 
-function onclickForattendancestatus() {
-    console.log("Faculty button clicked");
-    location.href= "faculty.html";
+function onclickForstudentattendancestatus(){
+    console.log("attendancestatus button clicked");
+    location.href= "studentattendancestatus.html";
 }
 
-function onclickForattendancecalendar() {
-    console.log("Faculty button clicked");
-    location.href= "faculty.html";
+function onclickForstudentac() {
+    console.log("studentac clicked ");
+    location.href= "studentac.html";
 }
