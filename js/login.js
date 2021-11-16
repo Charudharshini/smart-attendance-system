@@ -1,16 +1,16 @@
 var studentDetail = {
-    "studentId":"abc",
-    "password":"123"
+    "studentId":"group1",
+    "password":"eee"
 }
 
 var adminDetail = {
-    "adminId":"def",
-    "password":"456"
+    "adminId":"admin",
+    "password":"admin123"
 }
 
 var facultyDetail = {
-    "facultyId":"ghi",
-    "password":"789"
+    "facultyId":"MRS.Malathy",
+    "password":"amrita"
 }
 
 

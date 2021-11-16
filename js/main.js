@@ -13,3 +13,15 @@ function onclickForFacultyLogin() {
     console.log("Faculty button clicked");
     location.href= "faculty.html";
 }
+
+
+function onclickForTeamsLogin() {
+    console.log("Teams button clicked");
+    location.href= "teamslogin.html";
+}
+
+
+function onclickForQRlogin() {
+    console.log("QR button clicked");
+    location.href= "QRlogin.html";
+}

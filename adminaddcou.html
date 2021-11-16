@@ -1,51 +1,63 @@
 <!DOCTYPE html>
+<style type="text/css">
+    body{
+        background: linear-gradient(90deg, #EAD6EE 25.31%, #A0F1EA 100%);
+    }
+</style>
 
 <head>
     <title>Add Course</title>
     <link type="text/css" rel="stylesheet" href="css\style.css">
 </head>
-
+<html>
+<head>
+<style>
+.center {
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+}
+</style>
+</head>
 <body>
-    <table>
-        <tr>
-            <td>
-                <form autocomplete="off" onsubmit="onFormSubmit()">
-                    <div>
-                        <label for="Course Name">Course name</label>
-                        <input type="text" name="Course name" id="Course name">
-                    </div>
-                    <div>
-                   
-                        <label for="Student id number">Semester</label>
-                        <input type="number" name="Student id number" id="Student id number">
-                    </div>
-                    <div>
-                        <label for="Email ID">Email ID</label>
-                        <input type="text" name="Email ID" id="Email ID">
-                    </div>
-                    
-                    
-                   
-                    
-                        
 
+<div class="center">
+  <p><table>
+    <tr>
+        <td>
+            <form autocomplete="off" onsubmit="onFormSubmit()">
+                <div>
+                    <label for="Course Name">Course name</label>
+                    <input type="text" name="Course name" id="Course name">
+                </div>
+                <div>
+               
+                    <label for="Student id number">Semester</label>
+                    <input type="number" name="Student id number" id="Student id number">
+                </div>
+                <div>
+                    <label for="Email ID">Email ID</label>
+                    <input type="text" name="Email ID" id="Email ID">
+                </div>
+                
+                
+               
+                
                     
-                </form>
 
+                
+            </form>
+
+        
+        <div>
             
-            <div>
-                
-                     <button id="Add course" onclick="onclickForadminaddcou()">Add Course</button>
-                
-                        <script type="text/javascript" src="js\adash.js">
-                        </script>
-                      
-            </div>
-                
-                
-                
-                
-    
-</body>
+                 <button id="Add course" onclick="onclickForadminaddcou()">Add Course</button>
+            
+                    <script type="text/javascript" src="js\adash.js">
+                    </script>
+                  
+        </div></p>
+</div>
 
+</body>
 </html>

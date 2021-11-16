@@ -1,50 +1,76 @@
 <!DOCTYPE html>
+<style type="text/css">
+  body{
+      background: linear-gradient(90deg, #EAD6EE 25.31%, #A0F1EA 100%);
+  }
+</style>
+<style type="text/css">
+  body{
+      background: linear-gradient(90deg, #EAD6EE 25.31%, #A0F1EA 100%);
+  }
+</style>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-</head>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>ADMIN DASHBOARD</title>
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-</head>
-
-<<select id="select-id">
-    <option value="" selected="">CHOOSE THE REQUIREMENT</option>
-    <option value="file:///E:/sass/smart-attendance-system/adminaddstu.html">Add Student</option>
-    <option value="file:///E:/sass/smart-attendance-system/adminaddcou.html">Add Course</option>
-    <option value="file:///E:/sass/smart-attendance-system/adminaddfac.html">Add Faculty</option>
-
-    <option value="file:///E:/sass/smart-attendance-system/adminmodstu.html">Modify Student</option>
-    <option value="file:///E:/sass/smart-attendance-system/adminmodcou.html">Modify Course</option>
-    <option value="file:///E:/sass/smart-attendance-system/adminmodfac.html">Modify Faculty</option>
-
-    <option value="file:///E:/sass/smart-attendance-system/adminremstu.html">Remove Student</option>
-    <option value="file:///E:/sass/smart-attendance-system/adminremcou.html">Remove Course</option>
-    <option value="file:///E:/sass/smart-attendance-system/adminremfac.html">Remove Faculty</option>
-    </select>
-  <button onclick="siteRedirect()">APPLY!</button>
-  
-  <script>
-    function siteRedirect() {
-      var selectbox = document.getElementById("select-id");
-      var selectedValue = selectbox.options[selectbox.selectedIndex].value;
-      window.location.href = selectedValue;
+  <html>
+    <head>
+    <style>
+    .center {
+      padding: 70px 0;
+      border: 3px solid green;
+      text-align: center;
     }
-  
-  </script>
-   
-
-
-
-   
-</body>
-<script type="text/javascript" src="js\adash.js"></script>
-</html>
-</html>
+    </style>
+    </head>
+    <body>
+    
+    <div class="center">
+      <p><head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin Dashboard</title>
+    </head>
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <title>ADMIN DASHBOARD</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <<select id="select-id">
+        <option value="" selected="">CHOOSE THE REQUIREMENT</option>
+        <option value="file:///E:/sass/smart-attendance-system/adminaddstu.html">Add Student</option>
+        <option value="file:///E:/sass/smart-attendance-system/adminaddcou.html">Add Course</option>
+        <option value="file:///E:/sass/smart-attendance-system/adminaddfac.html">Add Faculty</option>
+    
+        <option value="file:///E:/sass/smart-attendance-system/adminmodstu.html">Modify Student</option>
+        <option value="file:///E:/sass/smart-attendance-system/adminmodcou.html">Modify Course</option>
+        <option value="file:///E:/sass/smart-attendance-system/adminmodfac.html">Modify Faculty</option>
+    
+        <option value="file:///E:/sass/smart-attendance-system/adminremstu.html">Remove Student</option>
+        <option value="file:///E:/sass/smart-attendance-system/adminremcou.html">Remove Course</option>
+        <option value="file:///E:/sass/smart-attendance-system/adminremfac.html">Remove Faculty</option>
+        </select>
+      <button onclick="siteRedirect()">APPLY!</button>
+      
+      <script>
+        function siteRedirect() {
+          var selectbox = document.getElementById("select-id");
+          var selectedValue = selectbox.options[selectbox.selectedIndex].value;
+          window.location.href = selectedValue;
+        }
+      
+      </script>
+       
+    
+    
+    
+       
+    </body>
+    <script type="text/javascript" src="js\adash.js"></script>
+    </html></p>
+    </div>
+    
+    </body>
+    </html>
