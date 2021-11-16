@@ -18,13 +18,60 @@ function onclickForstudentinbox() {
     location.href= "studentinbox.html";
 }
 
+
+//add admin dashboard for s,f,c//
 function onclickForaddstudent() {
     console.log("Add Student button clicked");
-    location.href= "adminaddstu.html";
+    location.href= "aas.html";
 }
 
 
-function onclickForaddcourse() {
+function onclickForadminaddcou() {
     console.log("Add Course button clicked");
-    location.href= "adminaddcou.html ";
+    location.href= "aac.html ";
 }
+
+function onclickForadminaddfac(){
+    console.log("Add Course button clicked");
+    location.href= "aaf.html ";
+}
+
+//modify admin dashboard for s,f,c//
+
+function onclickForadminmodcou(){
+    console.log("Modify Course button clicked");
+    location.href= "amc.html ";
+}
+function onclickForadminmodfac(){
+    console.log("Modify Course button clicked");
+    location.href= "amf.html ";
+}
+
+function onclickForadminmodstu(){
+    console.log("Modify Course button clicked");
+    location.href= "ams.html ";
+}
+
+//remove admin dashboard for s,f,c//
+
+function onclickForadminremcou(){
+    console.log("Remove Course button clicked");
+    location.href= "arc.html ";
+}
+
+function onclickForadminremfac(){
+    console.log("Remove Course button clicked");
+    location.href= "arf.html ";
+}
+
+function onclickForadminremstu(){
+    console.log("Remove Course button clicked");
+    location.href= "ars.html ";
+}
+
+
+
+
+
+
+

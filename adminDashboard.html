@@ -6,34 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
 </head>
-<body>
-    <label for="Choose the Requirement ">Choose the Requirement</label>
-    <select name="Choose the Requirement" id="Choose the Requirement">
-<optgroup label="FACULTY">
-    <option value="Add Faculty">Add Faculty</option>
-    <option value="Modify Faculty">Modify Faculty</option>
-    <option value="Remove Faculty">Remove Faculty</option>
-    <div></div>
-<optgroup label="STUDENT"></optgroup>
-    <option value="Add Student">Add Student</option>
-    <option value="Modify Student">Modify Student</option>
-    <option value="Remove Student">Remove Student</option>
-    <div></div>
-<optgroup label="COURSE"></optgroup>
-    <option value="Add Course">Add Course</option>
-    <option value="Modify Course">Modify Course</option>
-    <option value="Remove Course">Remove Course</option>
-  </optgroup>
-</select>
-<div></div>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ADMIN DASHBOARD</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<<select id="select-id">
+    <option value="" selected="">CHOOSE THE REQUIREMENT</option>
+    <option value="file:///E:/sass/smart-attendance-system/adminaddstu.html">Add Student</option>
+    <option value="file:///E:/sass/smart-attendance-system/adminaddcou.html">Add Course</option>
+    <option value="file:///E:/sass/smart-attendance-system/adminaddfac.html">Add Faculty</option>
+
+    <option value="file:///E:/sass/smart-attendance-system/adminmodstu.html">Modify Student</option>
+    <option value="file:///E:/sass/smart-attendance-system/adminmodcou.html">Modify Course</option>
+    <option value="file:///E:/sass/smart-attendance-system/adminmodfac.html">Modify Faculty</option>
+
+    <option value="file:///E:/sass/smart-attendance-system/adminremstu.html">Remove Student</option>
+    <option value="file:///E:/sass/smart-attendance-system/adminremcou.html">Remove Course</option>
+    <option value="file:///E:/sass/smart-attendance-system/adminremfac.html">Remove Faculty</option>
+    </select>
+  <button onclick="siteRedirect()">APPLY!</button>
+  
+  <script>
+    function siteRedirect() {
+      var selectbox = document.getElementById("select-id");
+      var selectedValue = selectbox.options[selectbox.selectedIndex].value;
+      window.location.href = selectedValue;
+    }
+  
+  </script>
    
 
 
 
-    <h1><button id="Faculty" onclick="onclickForfaculty()">Faculty</button>
-        <button id="Student" onclick="onclickForstudent()">Student</button>
-        <button id="Courses" onclick="onclickForcourse()">Courses</button>
-       
+   
 </body>
 <script type="text/javascript" src="js\adash.js"></script>
 </html>

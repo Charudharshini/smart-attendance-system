@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Home Page</title>
+    <style type="text/css">
+    body
+    {
+        background-image: url(11.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 100%  ;
+     }
+    </style>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Home Page</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
-</head>
+    <style>
+    .center {
+      padding: 200px 0;
+      border: 3px solid rgb(0, 0, 0);
+      text-align: center;
+    }
+    </style>
+    </head>
+    <body>
 
-<body>
-    <h1>Student Login</h1>
-
-
-    <form autocomplete="off">
+    
+    <div class="center">
+      <p><h1>Student Login</h1>
+           <form autocomplete="off">
+            <style>
+                fieldset{
+                    background-color: #f1f1f1;
+                    border: none;
+                    border-radius: 2px;
+                    margin-bottom: 12px;
+                    overflow: hidden;
+                    padding: 0 .625em;
+                }
+        
+                label{
+                    cursor: pointer;
+                    display: inline-block;
+                    padding: 3px 6px;
+                    text-align: right;
+                    width: 150px;
+                    vertical-align: top;
+                }
+        
+                input{
+                    font-size: inherit;
+                }
+            </style>
 
         <div>
             <label for="userName">Student Name: <abbr title="required">*</abbr></label>
@@ -26,7 +65,8 @@
     <button id="loginButton" onclick="onStudentLogin()" class="float-left submit-button">Login</button>
 
     <script type="text/javascript" src="js/login.js">
-    </script>
-</body>
-
-</html>
+    </script></p>
+    </div>
+    
+    </body>
+    </html>
